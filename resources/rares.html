@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">-->
+    <title>Cardfight Vanguard!!</title>
+    <link rel="stylesheet" href="index_styles.css">
+    <link rel="stylesheet" href="index_layout.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="script.js" async></script>
+    <script src="cards.js" async></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="angelfeather.html">Angel Feather</a></li>
+                <li><a href="genesis.html">Genesis</a></li>
+                <li><a href="nubatama.html">Nubatama</a></li>
+                <li><a href="novagrappler.html">Nova Grappler</a></li>
+                <li><a href="rares.html">Best Cards found in this set</a></li>
+            </ul>            
+        </nav>
+        <a href="index.html"><img src="vanguardbanner.jpg" alt="Cardfight Vanguard!!" /></a>
+        <div id="date"></div>
+    </header>
+
+    <h1>Best cards available in "Infinideity Cradle"</h1>
+    <div id="slideshowcontrols">
+        <button class="controls" id="pause">Pause</button>
+        Press the Left or Right arrow keys to change the cards!
+    </div>
+
+    <ul id="slides">
+        <li class="slide showing"><img src="angel1.png" alt=""></li>
+        <li class="slide"><img src="angel2.png" alt=""></li>
+        <li class="slide"><img src="genesis1.png" alt=""></li>
+        <li class="slide"><img src="genesis2.png" alt=""></li>
+        <li class="slide"><img src="nubatama1.png" alt=""></li>
+        <li class="slide"><img src="nubatama2.png" alt=""></li>
+        <li class="slide"><img src="novagrappler1.png" alt=""></li>
+        <li class="slide"><img src="novagrappler2.png" alt=""></li>
+    </ul>
+
+    <div id="clanchoose">
+        <form>
+            <input type="button" id="cardreveal" value="Show The Rarest Cards in this set!">
+        </form>
+    </div>
+
+    <div id="cardlist"></div>
+    
+    <footer>
+        
+    </footer>
+</body>
